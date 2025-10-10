@@ -91,20 +91,6 @@ O sistema busca democratizar o acesso aos dados de negócio, garantindo que anal
 
 ---
 
-## Product Backlog 📖
-| ID | Requisitos | Item |
-|----|------------|------|
-| BCK_1 | RF_1, RF_2 | Importar, tratar e armazenar dados em SQL |
-| BCK_2 | RF_3, RNF_2 | Sistema de login e autenticação segura |
-| BCK_3 | RF_4, RNF_6 | Interface responsiva (mobile + web) |
-| BCK_4 | RF_5 | Chat integrado com GPT/LLM e SQL |
-| BCK_5 | RF_6 | Resumos textuais automáticos |
-| BCK_6 | RF_7 | Envio de relatórios por e-mail |
-| BCK_7 | RNF_3 | Deploy em nuvem (AWS Academy) |
-| BCK_8 | RNF_4 | Documentação completa |
-
----
-
 ## User Stories 📖
 | ID | User Story |
 |----|------------|
@@ -123,26 +109,44 @@ O sistema busca democratizar o acesso aos dados de negócio, garantindo que anal
 ## 📋 Tarefas das Sprints  
 
 ### Sprint 01 | 08.09 - 28.09 
-- Importar e tratar CSV  
-- Criar banco SQL e carregar dados  
-- Exportar relatórios em CSV  
-- Enviar CSV por e-mail  
-- Autenticação (login + JWT)  
-- Layout responsivo (mobile)  
+
+| Tarefa | Descrição |
+|-----------------------|---------------------------------------------|
+| Importar e tratar CSV | Criar rotina para carregar dados no sistema |
+| Tratar e normalizar dados  | Padronizar datas, corrigir erros e duplicados |
+| Criar banco SQL e carregar dados | Organizar dados em tabelas |
+| Desenvolver FrontEnd | Criar telas e visual para ser apresentado ao cliente |
+| Gerar relatórios em arquivo CSV | Funcionalidade de enviar o arquivo gerado em csv por email |
+| Enviar CSV por email | Criar a funcionalidade de criar arquivos em csv dos dados tratados |
+| Implementar autenticação (login/senha) | Usuários acessam sistema com segurança |
+| Tela de login | Interface para entrada no sistema |
+| Segurança do login com tokens | Implementar autenticação com JWT ou similar, garantindo sessão segura. |
+| Layout responsivo (mobile) | Garantir funcionamento em celular |
 
 ### Sprint 02 | 06.10 - 26.10
-- Implementar motor GPT/LLM  
-- Criar API para conectar GPT ao SQL  
-- Conectar chat à API  
-- Tela de chat com histórico  
+
+| Tarefa | Descrição |
+|-----------------------|---------------------------------------------|
+| Implementar motor GPT/LLM para consultas | Buscas semânticas que vai entender perguntas em linguagem natural e vai converter em consultas |
+| Criar API para conectar GPT ao SQL  | API que envia perguntas e retorna respostas |
+| Conectar chat à API GPT | Front envia pergunta, back retorna resposta |
+| Tela de chat | Tela com campo de texto, botão enviar e histórico de mensagens. Exatament como um chat |
+| Tela de chat (Mobile) | Garantir funcionamento do chat Mobile |
 
 ### Sprint 03 | 03.11 - 23.11
-- Resumos textuais automáticos  
-- Boletins adaptados ao modelo DomRock  
-- Pipeline completo CSV → SQL → Chat → Resumos  
-- Deploy em AWS  
-- Tela de resumos  
-- Documentação (técnica + usuário)  
+
+| Tarefa | Descrição |
+|-----------------------|---------------------------------------------|
+| Gerar resumos textuais automáticos | Geração de texto automática. Banco de dados -> Resumos executivos |
+| Resumos baseados em SQL| Resumos devem puxar informações direto do banco, nunca de CSV cru. |
+| Adaptar boletins ao roteiro da Dom Rock | Ajustar formato conforme modelo do cliente |
+| Pipeline completo integrado | Fluxo: CSV → SQL →  Chat + Resumos |
+| Hospedar em AWS | Deploy completo do sistema em nuvem |
+| Garantir usabilidade mobile | Ajustar para uso confortável em celular |
+| Tela de resumos | Página clara e organizada com resumos |
+| Documentação | Documentação completa do produto |
+| Manual de Instalação | Guia técnico para rodar o sistema |
+| Manual do Usuário | Guia prático de uso do sistema |
 
 ---
 
@@ -160,10 +164,10 @@ O sistema busca democratizar o acesso aos dados de negócio, garantindo que anal
 
 ## 📄 Documentação  
 
-- **Wiki:** [📂 Documentação do Projeto](https://github.com/BananaScripts/API_6-Semester/wiki)  
+- **Wiki:** [📂 Documentação do Projeto](https://github.com/BananaScripts/API_6-Semestre/wiki)
 
-📊 Arquitetura do Sistema:  
-<img src="./Docs/ArquiteturaDoSistema.png)" width="1000"/>  
+📊 **Arquitetura do Sistema:**  
+<img src="https://raw.githubusercontent.com/BananaScripts/API_6-Semestre/main/Docs/ArquiteturaDoSistema.png" width="1000"/>
 
 ---
 
@@ -173,7 +177,6 @@ O sistema busca democratizar o acesso aos dados de negócio, garantindo que anal
 
 | Nome | LinkedIn | Github |
 |------|----------|--------|
-| Bruno Fernandes | [LinkedIn](https://www.linkedin.com/in/bruno-campos-97560b231/) | [GitHub](https://github.com/BrunoFerCam) |
 | Douglas Medeiros | [LinkedIn](https://www.linkedin.com/in/douglas-ferrini-medeiros-02b735270) | [GitHub](https://github.com/DouglasMedeiros1) |
 | Kauê Riki | [LinkedIn](https://www.linkedin.com/in/kau%C3%AA-riki-70b518273/) | [GitHub](https://github.com/kaueriki) |
 | Miguel Conde | [LinkedIn](https://www.linkedin.com/in/miguel-conde-santos-a67313271/) | [GitHub](https://github.com/miguelcondesantos) |
