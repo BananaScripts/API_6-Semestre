@@ -10,7 +10,7 @@
      <a href="#equipe">Equipe</a> 
 </p>
 
-# 👋 Hello! Nós somos o grupo BananaScript
+# 👋 Olá! Nós somos o grupo BananaScript
 Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC de São José dos Campos</a> e estamos no 6º semestre de Desenvolvimento de Software Multiplataforma.
 
 <span id="sobre">
@@ -49,8 +49,8 @@ O sistema busca democratizar o acesso aos dados de negócio, garantindo que anal
 | Período | Data | Status  |
 |---------|------|---------|
 | Kickoff | 25.08.2025 - 07.09.2025 | ✅ |
-| Sprint 01 | 08.09.2025 - 28.09.2025 | 🟡 |
-| Sprint 02 | 06.10.2025 - 26.10.2025 | 🔜 |
+| Sprint 01 | 08.09.2025 - 28.09.2025 | ✅ |
+| Sprint 02 | 06.10.2025 - 26.10.2025 | 🟡 |
 | Sprint 03 | 03.11.2025 - 23.11.2025 | 🔜 |
 | Feira de Soluções | 29.11.2025 | 🔜 |
 
@@ -59,7 +59,7 @@ O sistema busca democratizar o acesso aos dados de negócio, garantindo que anal
 ## MVPs (Minimum Viable Product)
 
 - **Sprint 01 (08.09 - 28.09):** Ingestão de dados via CSV e envio por e-mail.  
-- **Sprint 02 (06.10 - 26.10):** Chat com IA conectado ao SQL (consulta em linguagem natural).  
+- **Sprint 02 (06.10 - 26.10):** Busca semântica que retorna respostas em linguagem natural
 - **Sprint 03 (03.11 - 23.11):** Resumos automáticos (boletins), refinamentos, deploy em AWS e documentação final.  
 
 ---
@@ -122,7 +122,7 @@ O sistema busca democratizar o acesso aos dados de negócio, garantindo que anal
 
 ## 📋 Tarefas das Sprints  
 
-### Sprint 01 | 08.09 - 28.09
+### Sprint 01 | 08.09 - 28.09 
 - Importar e tratar CSV  
 - Criar banco SQL e carregar dados  
 - Exportar relatórios em CSV  
