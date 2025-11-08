@@ -29,8 +29,8 @@ O sistema busca democratizar o acesso aos dados de negócio, garantindo que anal
 ---
 
 ## 🔗 Links dos Repositórios
-- **Frontend:** [https://github.com/BananaScripts/API_6-Semester-Frontend](https://github.com/BananaScripts/API_6-Semester-Frontend)  
-- **Backend:** [https://github.com/BananaScripts/API_6-Semester-Backend](https://github.com/BananaScripts/API_6-Semester-Backend)  
+- **Frontend:** [[https://github.com/BananaScripts/API_6-Semester-Frontend](https://github.com/BananaScripts/API_6-Semestre-Frontend-Web)]  
+- **Backend:** [https://github.com/BananaScripts/API_6-Semestre-Backend](https://github.com/BananaScripts/API_6-Semestre-Backend)]
 
 📌 **Status do projeto:** 🟢 Em desenvolvimento
 
