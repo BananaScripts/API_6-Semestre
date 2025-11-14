@@ -50,8 +50,8 @@ O sistema busca democratizar o acesso aos dados de negócio, garantindo que anal
 |---------|------|---------|
 | Kickoff | 25.08.2025 - 07.09.2025 | ✅ |
 | Sprint 01 | 08.09.2025 - 28.09.2025 | ✅ |
-| Sprint 02 | 06.10.2025 - 26.10.2025 | 🟡 |
-| Sprint 03 | 03.11.2025 - 23.11.2025 | 🔜 |
+| Sprint 02 | 06.10.2025 - 26.10.2025 | ✅ |
+| Sprint 03 | 03.11.2025 - 23.11.2025 | 🟡 |
 | Feira de Soluções | 29.11.2025 | 🔜 |
 
 ---
